@@ -1,192 +1,171 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Dhruvil",
+        fullName: "Dhruvil Thakor",
+        title: "Software Engineer | Java Backend & AI",
+        description: "Software Engineer at Barclays building scalable distributed systems and intelligent applications. Passionate about microservices, cloud infrastructure, and AI-driven solutions."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "thakordrvl",
+        email: "thakordrvl@gmail.com",
+        location: "Pune, India"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am a Software Engineer at Barclays, working on backend microservices, CI/CD pipelines, and cloud infrastructure. I graduated from DA-IICT with a B.Tech in Information and Communication Technology. My expertise spans distributed systems, Java/Spring Boot, Go, Kubernetes, Kafka, and AI. I am passionate about building fault-tolerant, scalable systems and exploring the intersection of software engineering and artificial intelligence."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Software Engineer",
+            company: "Barclays",
+            period: "Aug. 2025 - Present",
+            location: "Pune, India",
+            description: "Full-time software engineer building and maintaining backend microservices for financial systems.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Engineered enhancements across 5 backend microservices using Java/Spring Boot with robust system design supporting 100,000+ daily transactions",
+                "Streamlined deployments by integrating automated CI/CD pipelines, Kubernetes orchestration, and AWS provisioning via Terraform",
+                "Optimized data processing utilizing SQL within PostgreSQL, reducing average request latency by 15%",
+                "Led Root Cause Analysis (RCA) and rigorous debugging for production incidents, maintaining 99.9% uptime and reducing MTTR by 30%",
+                "Collaborated in an Agile/Scrum environment to gather scope constraints and implement reliable data representation reports"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Java", "Spring Boot", "Kubernetes", "Terraform", "AWS", "PostgreSQL", "Kafka", "CI/CD"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "Software Engineering Intern",
+            company: "Barclays",
+            period: "May 2024 - July 2024",
+            location: "Pune, India",
+            description: "Summer internship building data ingestion pipelines and contributing to legacy system decoupling.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Developed automated data ingestion pipelines to parse, process, and publish over 100,000 records utilizing SQL and message queues",
+                "Executed unit testing via Mockito and performed component debugging during legacy system decoupling, accelerating API response times by 20%",
+                "Participated in technical design discussions to plan and execute tasks aimed at improving the team's operational development ecosystem"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Java", "SQL", "Mockito", "Message Queues", "Unit Testing"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            position: "B.Tech in ICT",
+            company: "DA-IICT",
+            period: "Oct 2021 - May 2025",
+            location: "Gandhinagar, India",
+            description: "Bachelor's degree in Information and Communication Technology from Dhirubhai Ambani Institute of ICT.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Studied core CS fundamentals including data structures, algorithms, operating systems, and computer networks",
+                "Focused on distributed systems, artificial intelligence, and software engineering",
+                "Built multiple projects in systems programming, AI, and distributed computing"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Java", "C++", "Go", "Python", "Distributed Systems", "AI"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/Drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali.",
-            link: "https://huggingface.co/red1-for-hek/drishti-ilm-x1"
+            title: "CogniDocs",
+            category: "AI / RAG",
+            technologies: "Java 21, Spring Boot, Spring AI, Ollama",
+            image: "",
+            description: "A Retrieval-Augmented Generation engine built with Spring AI and Ollama. Features local RAG ingestion pipeline with Apache Tika, token-based document chunking, vector store integration, and real-time streaming via Server-Sent Events.",
+            link: "https://github.com/thakordrvl/cognidocs"
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/VoteChain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking.",
-            link: "https://github.com/red1-for-hek/smart-election-by-blockchain"
+            title: "hraftd",
+            category: "Distributed Systems",
+            technologies: "Go, HashiCorp Raft, BoltDB, HTTP API",
+            image: "",
+            description: "A fault-tolerant distributed key-value store built in Go using the HashiCorp Raft consensus algorithm for strict leader election and replicated state machine log replication.",
+            link: "https://github.com/thakordrvl/-hraftd"
+        },
+        {
+            id: 3,
+            title: "HTTP Proxy & Load Balancer",
+            category: "Systems / Networking",
+            technologies: "C++17, POSIX/Winsock2, Multithreading",
+            image: "",
+            description: "A multithreaded Layer-7 HTTP reverse proxy built from scratch in C++17 with non-blocking I/O polling, custom thread pool, dynamic routing algorithms, and automated TCP health checks.",
+            link: "https://github.com/thakordrvl/cpp-proxy-loadbalancer"
         },
         {
             id: 4,
-            title: "Flood Spaces 2.0",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/FloodSpaces.png",
-            description: "Predicts flood risks across Bangladesh up to one month in advance and sends early alerts to help people prepare.",
-            link: "https://github.com/red1-for-hek/Flood-Spaces-2.0"
+            title: "NexusLedger",
+            category: "Fintech / Payments",
+            technologies: "Java 21, Spring Boot, gRPC, Kafka, PostgreSQL, Redis, React",
+            image: "",
+            description: "A high-throughput payment engine with double-entry ledger, idempotency protection, saga orchestration, and a real-time React dashboard. Supports 10K+ TPS with sub-50ms p99 latency.",
+            link: "https://github.com/thakordrvl/NexusLedger"
         },
         {
             id: 5,
-            title: "Phoenix 3.0",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/Phoenix3.0.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience.",
-            link: "https://github.com/red1-for-hek/phoenix3.0"
+            title: "VideoSphere",
+            category: "Microservices / Streaming",
+            technologies: "Java 17, Spring Boot, Angular, Kafka, PostgreSQL, FFmpeg, Docker",
+            image: "",
+            description: "A production-grade microservices video streaming platform with JWT auth, async event-driven processing, FFmpeg transcoding to HLS adaptive streaming, full-text search, and WebSocket notifications.",
+            link: "https://github.com/thakordrvl/VideoSphere"
         },
         {
             id: 6,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/RedxChess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation.",
-            link: "/play"
+            title: "Real-Time Leaderboard",
+            category: "Real-Time Systems",
+            technologies: "Java 21, Spring Boot, React, PostgreSQL, Redis, WebSocket, Docker",
+            image: "",
+            description: "A scalable real-time leaderboard with live ranking updates via WebSocket, Redis sorted sets for O(log N) queries, JWT auth, competition sharing, and horizontal scaling behind Nginx load balancer.",
+            link: "https://github.com/thakordrvl/Real-Time-LeaderBoard"
         },
         {
             id: 7,
-            title: "Prodesk",
-            category: "E-commerce",
-            technologies: "React, Node.js, MongoDB, Express, Stripe",
-            image: "/images/Prodesk.png",
-            description: "A complete e-commerce platform with secure checkout and smooth product browsing.",
-            link: "https://github.com/red1-for-hek/prodesk"
+            title: "User Rating Microservice",
+            category: "Microservices",
+            technologies: "Java 17, Spring Boot, Eureka, Kafka, PostgreSQL, MongoDB, Resilience4J",
+            image: "",
+            description: "A microservices architecture with Eureka service discovery, Spring Cloud Gateway, centralized config server, Resilience4J circuit breakers, and OAuth2/JWT security across User, Hotel, and Rating services.",
+            link: "https://github.com/thakordrvl/User-Rating-Microservice"
         },
         {
             id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes.",
-            link: ""
+            title: "Spring Batch Kafka",
+            category: "Data Pipelines",
+            technologies: "Java, Spring Boot, Spring Batch, Apache Kafka",
+            image: "",
+            description: "A Spring Boot application integrating Spring Batch to read CSV data and publish it to Kafka topics via REST-triggered batch jobs with custom serialization.",
+            link: "https://github.com/thakordrvl/Spring-Batch-Kafka"
+        },
+        {
+            id: 9,
+            title: ".drvl Version Control",
+            category: "Systems Programming",
+            technologies: "Python, File I/O, Hashing",
+            image: "",
+            description: "A custom command-line version control system with init, add, commit, checkout, logging, and user management — built from scratch in Python.",
+            link: "https://github.com/thakordrvl/WoC_6.0_Systems_Programming_drvl"
+        },
+        {
+            id: 10,
+            title: "Search Engine",
+            category: "Data Structures / Algorithms",
+            technologies: "C++, Trie, KMP Algorithm",
+            image: "",
+            description: "An efficient text search engine using Trie for prefix/exact search and KMP algorithm for universal substring matching on large datasets.",
+            link: "https://github.com/thakordrvl/Search-Engine"
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "thakordrvl@gmail.com",
+        github: "https://github.com/thakordrvl",
+        linkedin: "https://linkedin.com/in/dhruvil-thakor"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "SYSTEMS ENGINEER",
+            description: "Building distributed, scalable, and fault-tolerant systems",
+            details: "Architecting microservices, distributed data stores, and high-performance backend systems using Java, Go, Spring Boot, and cloud-native infrastructure.",
+            tools: ["Java", "Go", "C++", "Spring Boot", "Kubernetes", "Docker", "Kafka", "Terraform", "AWS", "PostgreSQL"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "AI ENGINEER",
+            description: "Intelligent systems and AI-driven applications",
+            details: "Building RAG pipelines, LLM-powered applications, and AI agents using Spring AI, LangChain4j, and modern ML frameworks.",
+            tools: ["Spring AI", "LangChain4j", "LLMs", "RAG", "Ollama", "Pinecone", "OpenAI API", "Anthropic Claude", "Groq", "GCP"]
         }
     }
 };
-
-
